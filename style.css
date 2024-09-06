@@ -1,0 +1,113 @@
+
+body{
+	font-family: arial;
+	background-image:url("pgg.jpg");
+	background-size:cover;
+	height:100vh;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+nav{
+	display:flex;
+	justify-content: start;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 8px;
+	height: 60px;
+	width: 100%;
+	padding-left:10px;
+}
+.logo{
+	font-size:40px;
+	margin-left: 55px;
+	color: rgb(232, 148, 14);
+}
+ul{
+	position:absolute;
+	list-style:none;
+	display:flex;
+	gap:25px;
+	font-weight:300;
+	margin-left: 600px;
+	font-size:18px;
+	cursor: pointer;
+	position: absolute;
+}
+a{
+	color: rgb(7, 7, 7);
+	text-decoration:none;
+}
+a:hover{
+	font-size:20px;
+	color:rgb(255, 124, 18);
+	text-decoration: underline;
+}
+.btn3{
+	padding:20px; 
+	padding-left: 50px;
+	padding-right: 50px;
+	border:2px solid white;
+	margin-left: 800px;
+	border-radius: 100px;
+	background-color: rgb(255, 124, 18);
+	color: white;
+	font-size:20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 1s;
+}
+.content{
+	align-items: center;
+	border:1px soildblack;
+	margin-top: 180px;
+	padding:20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 18px;
+}
+h1{
+	padding-left: 18px;
+	padding-right: 19px;
+	background-color: rgb(0, 0, 0, 0.05);
+	color: white;
+	font-size:60px;
+	font-family: sans-serif;
+}
+p{
+	align-items: center;
+	color:white;
+	font-size:18px;
+	margin-bottom: 50px;
+}
+.btn1{
+	padding: 28px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border:2px solid white;
+	margin-left: 120px;
+	border-radius: 100px;
+	background-color: rgb(255, 124, 18);
+	color: white;
+	font-size:20px;
+	font-weight:bold;
+	cursor: pointer;
+	transition: 1s;
+}
+.btn2{
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border:2px solid rgb(255, 255, 255, 255);
+	margin-left: 30px;
+	border-radius: 100px;
+	background-color: rgb(255, 124, 18);
+	color: white;
+	font-size: 20px;
+	font-weight:bold;
+	cursor: pointer;
+	transition: 1s;
+}
+.btn1:hover,.btn2:hover,.btn3:hover{
+	background-color: rgb(0, 0, 0, 0.1);
+	border:2px solid rgb(288, 148, 148);
+}
